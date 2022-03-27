@@ -3,4 +3,59 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #101022;
+    color: white;
+   
 }
+.header{
+    background-color: #101022;
+}
+
+.navbar {
+
+    background-color: #101022;
+    
+}
+.navitems a{
+    color: white;
+    display: inline;
+}
+.navitems a:hover{
+    color: gray;
+}
+
+
+/* first section */
+
+.first-section p{
+    font-size: 50px;
+}
+.first-sec-btn{
+    margin-top: 20px;
+    font-size:20px;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 30px;
+    background-color: rgb(34, 124, 134);
+
+
+}
+@keyframes example {
+    100%   {left:0px; top:50px;}
+    0% {left:50px; top:0px;}
+  }
+.svg {
+    margin-left: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    
+  }
+@media only screen and (max-width: 600px) {
+
+    .navitems a{
+        gap: 30px;
+        display: block;
+    }
+
+  }
