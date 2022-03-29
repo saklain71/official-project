@@ -3,22 +3,18 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+}
+.first-section{
     background-color: #101022;
-    color: white;
-   
 }
 .header{
     background-color: #101022;
 }
 
-.navbar {
-
-    background-color: #101022;
-    
-}
 .navitems a{
     color: white;
     display: inline;
+    
 }
 .navitems a:hover{
     color: gray;
@@ -28,28 +24,64 @@ body{
 /* first section */
 
 .first-section p{
-    font-size: 50px;
+    font-size: 35px;
 }
 .first-sec-btn{
     margin-top: 20px;
     font-size:20px;
     padding: 10px 20px 10px 20px ;
     border-radius: 30px;
+    border: 0.1rem solid beige;
     background-color: rgb(34, 124, 134);
-
-
 }
 @keyframes example {
     100%   {left:0px; top:50px;}
     0% {left:50px; top:0px;}
   }
 .svg {
-    margin-left: 100px;
+    margin-left: 150px;
+    margin-bottom: 20px;
     position: relative;
     animation-name: example;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+  }
+  .first-headlines{
+      margin-top: 100px;
+      text-align: center;
+     
+  }
+  .cardBody{
+      padding: 20px 20px;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.18);
+  }
+  .cardBody img{
+    background-color: rgb(74, 72, 72);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .cardBody h1{
+     margin-top: 30px;
+      color: rgb(34, 124, 134);
+      font-size: 25px;
+  }
+  .cardBody p{
+      font-size: 20px;
+  }
+  .cardBody a{
+    color: rgb(34, 124, 134);
+    text-decoration: none;
     
+  }
+  .card-main{
+    
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .card-main :hover{
+      background-color: #101022;
   }
 @media only screen and (max-width: 600px) {
 
