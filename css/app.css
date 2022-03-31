@@ -1,43 +1,56 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-body{
+
+body {
     font-family: 'Montserrat', sans-serif;
 }
-.first-section{
-    background-color: #101022;
-}
-.header{
+
+.first-section {
     background-color: #101022;
 }
 
-.navitems a{
+.header {
+    background-color: #101022;
+}
+
+.navitems a {
     color: white;
     display: inline;
-    
+
 }
-.navitems a:hover{
+
+.navitems a:hover {
     color: gray;
 }
 
 
 /* first section */
 
-.first-section p{
+.first-section p {
     font-size: 35px;
 }
-.first-sec-btn{
+
+.first-sec-btn {
     margin-top: 20px;
-    font-size:20px;
-    padding: 10px 20px 10px 20px ;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
     border-radius: 30px;
     border: 0.1rem solid beige;
     background-color: rgb(34, 124, 134);
 }
+
 @keyframes example {
-    100%   {left:0px; top:50px;}
-    0% {left:50px; top:0px;}
-  }
+    100% {
+        left: 0px;
+        top: 50px;
+    }
+
+    0% {
+        left: 50px;
+        top: 0px;
+    }
+}
+
 .svg {
     margin-left: 150px;
     margin-bottom: 20px;
@@ -45,49 +58,113 @@ body{
     animation-name: example;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-  }
-  .first-headlines{
-      margin-top: 100px;
-      text-align: center;
-     
-  }
-  .cardBody{
-      padding: 20px 20px;
-      align-items: center;
-      background-color: rgba(0, 0, 0, 0.18);
-  }
-  .cardBody img{
+}
+
+.first-headlines {
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.cardBody {
+    padding: 20px 20px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.18);
+}
+
+.cardBody img {
     background-color: rgb(74, 72, 72);
     padding: 10px;
     border-radius: 10px;
-  }
-  .cardBody h1{
-     margin-top: 30px;
-      color: rgb(34, 124, 134);
-      font-size: 25px;
-  }
-  .cardBody p{
-      font-size: 20px;
-  }
-  .cardBody a{
+}
+
+.cardBody h1 {
+    margin-top: 30px;
+    color: rgb(34, 124, 134);
+    font-size: 25px;
+}
+
+.cardBody p {
+    font-size: 20px;
+}
+
+.cardBody a {
     color: rgb(34, 124, 134);
     text-decoration: none;
+
+}
+
+.card-main {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-main :hover {
+    background-color: #101022;
+}
+
+
+/* second- section */
+.second-section {
+    background-color: black;
+}
+
+.second-section img {
+    width: 100%;
+}
+
+.section-titles {
+    color: white;
+    opacity: .75;
+}
+
+.second-section p {
+    font-size: 15px;
+}
+
+.second-section a {
+    text-decoration: none;
+    color: rgb(34, 124, 134);
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+/* Third section */
+
+.third-section {
+    background-color: #101022;
+}
+
+.third-btn {
+    margin-bottom: 20px;
+    background-color: #101022;
+    color: white;
+    width: 300px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    opacity: .50;
+}
+
+.third-section a {
     
-  }
-  .card-main{
     
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
-  .card-main :hover{
-      background-color: #101022;
-  }
+    text-decoration: none;
+    color: rgb(34, 124, 134);
+    border-radius: 20px;
+}
+
+
 @media only screen and (max-width: 600px) {
 
-    .navitems a{
+    .navitems a {
         gap: 30px;
         display: block;
     }
 
-  }
+}
