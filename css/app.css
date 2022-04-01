@@ -162,7 +162,6 @@ body {
 
 .third-section a {
     
-    
     text-decoration: none;
     color: rgb(34, 124, 134);
     border-radius: 20px;
@@ -179,8 +178,36 @@ body {
 }
 .fourth-section h2{
     color: aliceblue;
+    opacity: .75;
 }
 
+/* fifth Section */
+.fifth-section-title{
+   margin-top: 10px;
+}
+.fifth-section h1,h2{
+    color: aliceblue;
+    opacity: .75;
+}
+.fifth-section a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(34, 124, 134);
+    border: 1px solid gray;
+    border-radius: 20px;
+    
+}
+.fifth-section img{
+
+    width: 50px;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.fifth-section p{
+    margin-top: -10px;
+    font-size: smaller;
+}
 
 @media only screen and (max-width: 600px) {
 
