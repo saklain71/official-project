@@ -12,7 +12,13 @@ body {
 }
 
 .header {
-    background-color: #101022;
+    background-color: black;
+    
+    
+}
+.navbar{
+    position: sticky;
+
 }
 
 .navitems a {
@@ -208,12 +214,49 @@ body {
     margin-top: -10px;
     font-size: smaller;
 }
+/* sixth section  */
+.sixt-section{
+   
+}
+.review{
+    background-color: rgb(19, 21, 40);
+    padding: 20px;
+}
 
+.review-name img{
+    width: 50px;
+    height: 50px;
+
+}
+
+/* first-section */
 @media only screen and (max-width: 600px) {
-
+    .svg{
+        margin: 0% auto;
+    }
     .navitems a {
         gap: 30px;
         display: block;
     }
+    .first-section p{
+        text-align: center;
+    }
+    .first-section .first-sec-btn {
+      margin-left: 50px;
+      
+    }
+    
 
 }
+
+/* last section */
+
+@media only screen and (max-width: 600px) {
+
+    .last-section{
+      display: flex;
+      flex-direction: column;
+    }
+
+}
+
