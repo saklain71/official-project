@@ -13,10 +13,11 @@ body {
 
 .header {
     background-color: black;
-    
-    
+
+
 }
-.navbar{
+
+.navbar {
     position: sticky;
 
 }
@@ -158,105 +159,154 @@ body {
     border-radius: 30px;
     opacity: .50;
 }
-.third-section h3{
+
+.third-section h3 {
     color: rgb(34, 124, 134);
 }
-.third-section p{
+
+.third-section p {
     color: whitesmoke;
     opacity: .75;
 }
 
 .third-section a {
-    
+
     text-decoration: none;
     color: rgb(34, 124, 134);
     border-radius: 20px;
 }
-.third-section img{
+
+.third-section img {
     width: 50px;
     height: 50px;
 }
 
 /*  Fourth section */
 
-.fourth-section{
+.fourth-section {
     background-color: black;
 }
-.fourth-section h2{
+
+.fourth-section h2 {
     color: aliceblue;
     opacity: .75;
 }
 
 /* fifth Section */
-.fifth-section-title{
-   margin-top: 10px;
+.fifth-section-title {
+    margin-top: 10px;
 }
-.fifth-section h1,h2{
+
+.fifth-section h1,
+h2 {
     color: aliceblue;
     opacity: .75;
 }
-.fifth-section a{
+
+.fifth-section a {
     padding: 10px;
     text-decoration: none;
     color: rgb(34, 124, 134);
     border: 1px solid gray;
     border-radius: 20px;
-    
+
 }
-.fifth-section img{
+
+.fifth-section img {
 
     width: 50px;
     height: 100%;
     margin-bottom: 10px;
 }
 
-.fifth-section p{
+.fifth-section p {
     margin-top: -10px;
     font-size: smaller;
 }
+
 /* sixth section  */
-.sixt-section{
-   
-}
-.review{
+.sixt-section {}
+
+.review {
     background-color: rgb(19, 21, 40);
     padding: 20px;
 }
 
-.review-name img{
+.review-name img {
     width: 50px;
     height: 50px;
 
 }
 
+footer .useful-link h6 {
+    color: rgb(34, 124, 134);
+}
+
+footer .useful-link a {
+    text-decoration: none;
+    display: grid;
+    color: whitesmoke;
+    opacity: .5;
+  
+
+}
+
+footer .footer-ending a {
+    text-decoration: none;
+    color: white;
+    opacity: .5;
+    font-size: 15px;
+    margin-right: 2px;
+    align-items: center;
+
+}
+
+footer .useful-link p {
+    font-size: 20;
+}
+
+footer .footer-ending p {
+    font-size: 15px;
+}
+
+
+/* Media querry */
 /* first-section */
+
 @media only screen and (max-width: 600px) {
-    .svg{
+    .svg {
         margin: 0% auto;
     }
+
     .navitems a {
         gap: 30px;
         display: block;
     }
-    .first-section p{
+
+    .first-section p {
         text-align: center;
     }
+
     .first-section .first-sec-btn {
-      margin-left: 50px;
-      
+        margin-left: 50px;
+
     }
-    
+
 
 }
+
 
 /* last section */
 
 @media only screen and (max-width: 600px) {
 
-    .last-section{
-      display: flex;
-      flex-direction: column;
+    .last-section {
+
+        display: block !important;
     }
 
+
 }
+
+/*  footer */
 
